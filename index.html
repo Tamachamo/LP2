@@ -7,68 +7,96 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <!-- ファーストビュー -->
+  <!-- ヒーローセクション -->
   <section class="hero">
-    <h1>あなたの部屋がジムになる。</h1>
-    <p>自宅でスキマ時間にボディメイク。<br>GlowFitの無料体験で、新しい自分に出会おう。</p>
-    <a href="#" class="btn">今すぐ無料体験する</a>
+    <div class="overlay">
+      <h1>あなたの部屋がジムになる</h1>
+      <p>GlowFitは、あなた専属のトレーナーとスマホ1つでボディメイクを実現。</p>
+      <a href="#" class="btn">今すぐ無料体験</a>
+    </div>
   </section>
 
-  <!-- おすすめセクション -->
-  <section>
-    <h2>こんな方におすすめ！</h2>
+  <!-- おすすめポイント -->
+  <section class="reasons">
+    <h2>こんなあなたに</h2>
     <ul>
-      <li>・運動不足だけどジムに行く時間がない</li>
-      <li>・育児や在宅ワークで外出が難しい</li>
-      <li>・人目を気にせず運動したい</li>
+      <li>・運動不足だけどジムに行けない</li>
+      <li>・在宅ワークや育児で外出が難しい</li>
+      <li>・人目を気にせずこっそり痩せたい</li>
     </ul>
   </section>
 
-  <!-- 特徴セクション -->
-  <section class="features">
-    <h2>GlowFitの特徴</h2>
-    <ul>
-      <li><strong>簡単アクセス：</strong>アプリ不要、スマホでそのまま！</li>
-      <li><strong>プロのトレーナー：</strong>全員が有資格者・女性中心</li>
-      <li><strong>食事サポート：</strong>チャットで毎日アドバイス</li>
-    </ul>
+  <!-- プログラム紹介 -->
+  <section class="programs">
+    <h2>選べるトレーニングメニュー</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>10分集中</h3>
+        <p>スキマ時間に朝のリフレッシュ</p>
+      </div>
+      <div class="card">
+        <h3>30分燃焼</h3>
+        <p>有酸素＋筋トレのバランスプログラム</p>
+      </div>
+      <div class="card">
+        <h3>45分フルボディ</h3>
+        <p>体幹＋全身引き締めコース</p>
+      </div>
+    </div>
   </section>
 
   <!-- Before After -->
-  <section>
+  <section class="before-after">
     <h2>Before / After</h2>
     <div class="images">
-      <img src="images/before.jpg" alt="Before">
-      <img src="images/after.jpg" alt="After">
+      <img src="images/glowfit_before.jpg" alt="Before">
+      <img src="images/glowfit_after.jpg" alt="After">
     </div>
-    <p style="text-align:center;">※効果には個人差があります</p>
+    <p class="caption">※効果には個人差があります</p>
   </section>
 
   <!-- 利用者の声 -->
-  <section>
+  <section class="reviews">
     <h2>利用者の声</h2>
-    <ul>
-      <li>「運動嫌いだった私が毎日続けてるなんて…！」 - Aさん（32）</li>
-      <li>「子育ての合間にリフレッシュできて最高」 - Bさん（40）</li>
-    </ul>
+    <div class="cards">
+      <div class="card">
+        <p>「子育ての合間にできて、体も気分も軽くなった！」</p>
+        <span>- Aさん（32歳）</span>
+      </div>
+      <div class="card">
+        <p>「トレーナーさんがLINEで励ましてくれて続けられた」</p>
+        <span>- Bさん（40歳）</span>
+      </div>
+    </div>
   </section>
 
-  <!-- FAQ -->
+  <!-- プラン＆料金表 -->
+  <section class="plans">
+    <h2>プランと料金</h2>
+    <table>
+      <tr><th>プラン</th><th>月額</th><th>内容</th></tr>
+      <tr><td>ライト</td><td>¥3,980</td><td>動画＋1回チャット</td></tr>
+      <tr><td>スタンダード</td><td>¥6,980</td><td>週1チャット＋アドバイス</td></tr>
+      <tr><td>プレミアム</td><td>¥9,980</td><td>Zoom＋毎日LINEサポート</td></tr>
+    </table>
+  </section>
+
+  <!-- よくある質問 -->
   <section class="faq">
     <h2>よくあるご質問</h2>
     <dl>
-      <dt>運動が苦手でも大丈夫ですか？</dt>
-      <dd>もちろんOK。初心者向けプログラムも多数ご用意しています。</dd>
-      <dt>体験レッスンだけでも大丈夫？</dt>
-      <dd>はい、無理な勧誘は一切ありません。</dd>
+      <dt>初心者でも大丈夫？</dt>
+      <dd>はい！初心者向けプログラムも充実しています。</dd>
+      <dt>体験だけでもいい？</dt>
+      <dd>もちろんOK！勧誘もありません。</dd>
     </dl>
   </section>
 
-  <!-- カウンセリング案内 -->
+  <!-- 体験フロー -->
   <section class="cta">
-    <h2>無料体験の流れ</h2>
-    <p>STEP1：LINE登録 → STEP2：日程選択 → STEP3：オンラインレッスン体験！</p>
-    <a href="#" class="btn">無料で体験してみる</a>
+    <h2>体験の流れ</h2>
+    <p>STEP1：LINE登録 → STEP2：日程選択 → STEP3：Zoomで体験！</p>
+    <a href="#" class="btn">今すぐ体験予約</a>
   </section>
 
   <!-- フッター -->
@@ -76,4 +104,4 @@
     <p>&copy; 2024 GlowFit. All rights reserved.</p>
   </footer>
 </body>
-</html>
+</html
